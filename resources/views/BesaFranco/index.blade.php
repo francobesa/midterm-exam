@@ -1,8 +1,11 @@
 @extends('template.main')
 
 @section('content')
- 
-<h1>Laravel Features</h1>
+
+<div class="col-md-9 col-lg-12 col-xl-12 text-center grid-item fw-bold fs-3 rounded-header">
+    Laravel Features
+</div>
+
     
 <!-- Table for category -->
 <table class="table">
@@ -23,6 +26,6 @@
         @endforeach
     </tbody>
 </table>
-<p> © Web Development Technologies - Midterm Exam </p>
+<p> © 2025 Web Development Technologies - Midterm Exam </p>
 
 @endsection
