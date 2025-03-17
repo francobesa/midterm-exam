@@ -30,7 +30,7 @@ class FeatureSeeder extends Seeder
 
         DB::table("features")->insert([
             'name' => "Controller", 
-            'description' => "A Controller acts as the middlemen between the models and views. It handles user requests, processes data, and decides what to display.", 
+            'description' => "Controllers acts as the middlemen between the models and views. It handles user requests, processes data, and decides what to display.", 
             'created_at' => now(),
             'updated_at' => now()
         ]);
